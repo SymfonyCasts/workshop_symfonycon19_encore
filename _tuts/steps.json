@@ -179,7 +179,87 @@
             "id": "bootstrap-remove-jquery-bootstrap-from-base-html-twig",
             "name": "Bootstrap: Remove jquery+bootstrap from base.html.twig",
             "description": null
+        },
+        {
+            "id": "bad-plugins-install-jquery-tags-input",
+            "name": "Bad Plugins: install jquery-tags-input",
+            "description": null
+        },
+        {
+            "id": "bad-plugins-fixing-require-path",
+            "name": "Bad Plugins: Fixing require path",
+            "description": null
+        },
+        {
+            "id": "bad-plugins-make-jquery-global",
+            "name": "Bad Plugins: Make jQuery global",
+            "description": null
+        },
+        {
+            "id": "bad-plugins-autoprovidejquery",
+            "name": "Bad Plugins: autoProvidejQuery",
+            "description": null
+        },
+        {
+            "id": "multipage-splitentrychunks",
+            "name": "Multipage: splitEntryChunks()",
+            "description": null
+        },
+        {
+            "id": "multipage-include-extra-script-tag",
+            "name": "Multipage: Include extra script tag",
+            "description": null
+        },
+        {
+            "id": "multipage-use-encore-script-function",
+            "name": "Multipage: Use encore script function",
+            "description": null
+        },
+        {
+            "id": "css-require-login-css",
+            "name": "CSS: require login.css",
+            "description": null
+        },
+        {
+            "id": "css-require-app-css-with-img",
+            "name": "CSS: require app.css with img",
+            "description": null
+        },
+        {
+            "id": "css-require-external-font",
+            "name": "CSS: Require external font",
+            "description": null
+        },
+        {
+            "id": "organization-move-to-assets",
+            "name": "Organization: move to assets\/",
+            "description": null
+        },
+        {
+            "id": "organization-copy-static-file",
+            "name": "Organization: Copy static file",
+            "description": null
+        },
+        {
+            "id": "css-bootstrap",
+            "name": "CSS: Bootstrap",
+            "description": null
+        },
+        {
+            "id": "css-import-bootstrap",
+            "name": "CSS: @import bootstrap",
+            "description": null
+        },
+        {
+            "id": "css-install-fontawesome",
+            "name": "CSS: Install FontAwesome",
+            "description": null
+        },
+        {
+            "id": "css-use-font-awesome",
+            "name": "CSS: Use Font Awesome",
+            "description": null
         }
     ],
-    "sha": "e45a0de5f3712cad3435f36cab00a7542b35ae90"
+    "sha": "3dfa6ce28c8d7d1bf265c89beb0a8fa065cbe077"
 }

@@ -1,0 +1,45 @@
+diff --git a/package.json b/package.json
+index cdc142e..60812b5 100644
+--- a/package.json
++++ b/package.json
+@@ -4,6 +4,7 @@
+         "bootstrap": "^4.3.1",
+         "core-js": "^3.0.0",
+         "jquery": "^3.4.1",
++        "jquery-tags-input": "^1.3.5",
+         "popper.js": "^1.16.0",
+         "regenerator-runtime": "^0.13.2",
+         "webpack-notifier": "^1.6.0"
+diff --git a/public/assets/js/app.js b/public/assets/js/app.js
+index 982b0f2..c2a7019 100644
+--- a/public/assets/js/app.js
++++ b/public/assets/js/app.js
+@@ -2,8 +2,12 @@
+ 
+ const $ = require('jquery');
+ require('bootstrap');
++require('jquery-tags-input');
+ 
+     $(document).ready(function() {
+         $('[data-toggle="tooltip"]').tooltip();
++
++        // just example code
++        $('#tags').tagsInput();
+     });
+ 
+diff --git a/yarn.lock b/yarn.lock
+index e929d67..043485d 100644
+--- a/yarn.lock
++++ b/yarn.lock
+@@ -3426,6 +3426,11 @@ isobject@^3.0.0, isobject@^3.0.1:
+   resolved "https://registry.yarnpkg.com/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
+   integrity sha1-TkMekrEalzFjaqH5yNHMvP2reN8=
+ 
++jquery-tags-input@^1.3.5:
++  version "1.3.5"
++  resolved "https://registry.yarnpkg.com/jquery-tags-input/-/jquery-tags-input-1.3.5.tgz#1c89cb95c61983ad14386d30a006920476b93ed7"
++  integrity sha1-HInLlcYZg60UOG0woAaSBHa5Ptc=
++
+ jquery@^3.4.1:
+   version "3.4.1"
+   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.4.1.tgz#714f1f8d9dde4bdfa55764ba37ef214630d80ef2"
