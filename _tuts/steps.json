@@ -104,7 +104,82 @@
             "id": "webpack-remove-gitignore",
             "name": "Webpack: Remove .gitignore",
             "description": null
+        },
+        {
+            "id": "install-add-encore-bundle",
+            "name": "Install: Add encore bundle",
+            "description": null
+        },
+        {
+            "id": "install-delete-assets",
+            "name": "Install: Delete assets",
+            "description": null
+        },
+        {
+            "id": "install-yarn-install",
+            "name": "Install: yarn install",
+            "description": null
+        },
+        {
+            "id": "install-set-up-entry-remove-runtime",
+            "name": "Install: set up entry, remove runtime",
+            "description": null
+        },
+        {
+            "id": "install-remove-splitentrychunks",
+            "name": "Install: remove splitEntryChunks()",
+            "description": null
+        },
+        {
+            "id": "modules-refactor-replogapp-js",
+            "name": "Modules: Refactor RepLogApp.js",
+            "description": null
+        },
+        {
+            "id": "modules-add-proper-rep-log-js-entry",
+            "name": "Modules: Add proper rep_log.js entry",
+            "description": null
+        },
+        {
+            "id": "modules-organize-into-components",
+            "name": "Modules: Organize into Components",
+            "description": null
+        },
+        {
+            "id": "modules-require-install-jquery",
+            "name": "Modules: require + install jquery",
+            "description": null
+        },
+        {
+            "id": "multipage-add-login-js-entry",
+            "name": "Multipage: Add login.js entry",
+            "description": null
+        },
+        {
+            "id": "multipage-remove-self-executing",
+            "name": "Multipage: Remove self-executing",
+            "description": null
+        },
+        {
+            "id": "multipage-add-app-js-entry",
+            "name": "Multipage: Add app.js entry",
+            "description": null
+        },
+        {
+            "id": "bootstrap-require-bootstrap",
+            "name": "Bootstrap: require bootstrap",
+            "description": null
+        },
+        {
+            "id": "bootstrap-add-popper-js",
+            "name": "Bootstrap: Add popper.js",
+            "description": null
+        },
+        {
+            "id": "bootstrap-remove-jquery-bootstrap-from-base-html-twig",
+            "name": "Bootstrap: Remove jquery+bootstrap from base.html.twig",
+            "description": null
         }
     ],
-    "sha": "3d188246513ac84af0aaa8db96e4869680cc628e"
+    "sha": "e45a0de5f3712cad3435f36cab00a7542b35ae90"
 }

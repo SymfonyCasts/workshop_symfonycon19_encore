@@ -1,0 +1,25 @@
+diff --git a/templates/security/login.html.twig b/templates/security/login.html.twig
+index 74390c4..6bf1af6 100644
+--- a/templates/security/login.html.twig
++++ b/templates/security/login.html.twig
+@@ -9,7 +9,7 @@
+ {% block javascripts %}
+     {{ parent() }}
+ 
+-    <script src="{{ asset('assets/js/login.js') }}"></script>
++    <script src="{{ asset('build/login.js') }}"></script>
+ {% endblock %}
+ 
+ {% block title %}Log in!{% endblock %}
+diff --git a/webpack.config.js b/webpack.config.js
+index 3e3fa2f..22e3cb8 100644
+--- a/webpack.config.js
++++ b/webpack.config.js
+@@ -24,6 +24,7 @@ Encore
+      * and one CSS file (e.g. app.css) if your JavaScript imports CSS.
+      */
+     .addEntry('rep_log', './public/assets/js/rep_log.js')
++    .addEntry('login', './public/assets/js/login.js')
+     //.addEntry('page1', './assets/js/page1.js')
+     //.addEntry('page2', './assets/js/page2.js')
+ 
