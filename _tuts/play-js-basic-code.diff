@@ -1,0 +1,9 @@
+diff --git a/play.js b/play.js
+new file mode 100644
+index 0000000..a39bc87
+--- /dev/null
++++ b/play.js
+@@ -0,0 +1,3 @@
++var conference = 'SymfonyCon 2019!';
++
++console.log(conference);

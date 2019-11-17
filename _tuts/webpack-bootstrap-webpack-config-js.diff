@@ -1,0 +1,14 @@
+diff --git a/webpack.config.js b/webpack.config.js
+new file mode 100644
+index 0000000..770d7a6
+--- /dev/null
++++ b/webpack.config.js
+@@ -0,0 +1,8 @@
++module.exports = {
++    entry: './public/assets/js/RepLogApp.js',
++    output: {
++        filename: 'rep_log.js',
++        path: __dirname+'/public/build'
++    },
++    mode: 'development'
++};

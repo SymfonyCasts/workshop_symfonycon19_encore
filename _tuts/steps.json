@@ -1,0 +1,110 @@
+{
+    "steps": [
+        {
+            "id": "start",
+            "name": "start",
+            "description": null
+        },
+        {
+            "id": "play-js-basic-code",
+            "name": "play.js: Basic code",
+            "description": null
+        },
+        {
+            "id": "play-js-using-const",
+            "name": "play.js: Using const",
+            "description": null
+        },
+        {
+            "id": "play-js-basic-require",
+            "name": "play.js: basic require",
+            "description": null
+        },
+        {
+            "id": "play-js-export-class",
+            "name": "play.js: export class",
+            "description": null
+        },
+        {
+            "id": "play-js-using-getter",
+            "name": "play.js: using getter",
+            "description": null
+        },
+        {
+            "id": "play-js-settimeout",
+            "name": "play.js: setTimeout",
+            "description": null
+        },
+        {
+            "id": "play-js-move-to-printnamelater",
+            "name": "play.js: move to printNameLater()",
+            "description": null
+        },
+        {
+            "id": "play-js-arrow-function",
+            "name": "play.js: arrow function",
+            "description": null
+        },
+        {
+            "id": "promise-return-a-promise",
+            "name": "Promise: Return a promise",
+            "description": null
+        },
+        {
+            "id": "promise-pass-resolve-data",
+            "name": "Promise: pass resolve data",
+            "description": null
+        },
+        {
+            "id": "promise-chain-promise",
+            "name": "Promise: Chain promise",
+            "description": null
+        },
+        {
+            "id": "promise-return-new-value",
+            "name": "Promise: Return new value",
+            "description": null
+        },
+        {
+            "id": "promise-return-a-promise-from-promise",
+            "name": "Promise: Return a Promise from Promise",
+            "description": null
+        },
+        {
+            "id": "webpack-refactor-helper-to-module",
+            "name": "Webpack: Refactor Helper to module",
+            "description": null
+        },
+        {
+            "id": "webpack-install-webpack",
+            "name": "Webpack: Install Webpack",
+            "description": null
+        },
+        {
+            "id": "webpack-ignore-node-modules",
+            "name": "Webpack: ignore node_modules",
+            "description": null
+        },
+        {
+            "id": "webpack-bootstrap-webpack-config-js",
+            "name": "Webpack: Bootstrap webpack.config.js",
+            "description": null
+        },
+        {
+            "id": "webpack-add-script-tag",
+            "name": "Webpack: Add script tag",
+            "description": null
+        },
+        {
+            "id": "webpack-delete-package-webpack-config-js",
+            "name": "Webpack: delete package, webpack.config.js",
+            "description": null
+        },
+        {
+            "id": "webpack-remove-gitignore",
+            "name": "Webpack: Remove .gitignore",
+            "description": null
+        }
+    ],
+    "sha": "3d188246513ac84af0aaa8db96e4869680cc628e"
+}
