@@ -48,13 +48,13 @@
 {% block stylesheets %}
     {{ parent() }}
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/sweetalert2/6.1.0/sweetalert2.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@9.3.11/dist/sweetalert2.min.css" integrity="sha256-H4+4fXowiJdT4+ib0qhGKa/ULGyOSgkYDCwUqf3J/m4=" crossorigin="anonymous">
 {% endblock %}
 
 {% block javascripts %}
     {{ parent() }}
 
-    <script src="https://cdn.jsdelivr.net/sweetalert2/6.1.0/sweetalert2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9.3.11/dist/sweetalert2.min.js" integrity="sha256-UYVKbX4Zw6pLZrVS8phqZMOHSzLb/RZ1S5uQpNuAnQQ=" crossorigin="anonymous"></script>
     <script src="{{ asset('assets/js/RepLogApp.js') }}"></script>
 
     <script>

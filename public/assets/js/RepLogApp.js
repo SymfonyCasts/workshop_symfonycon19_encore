@@ -1,6 +1,6 @@
 'use strict';
 
-(function(window, $, Routing, swal) {
+(function(window, $, Routing, Swal) {
 
     let HelperInstances = new WeakMap();
 
@@ -60,14 +60,12 @@
 
             const $link = $(e.currentTarget);
 
-            swal({
+            Swal.fire({
                 title: 'Delete this log?',
                 text: 'What? Did you not actually lift this?',
                 showCancelButton: true,
                 showLoaderOnConfirm: true,
                 preConfirm: () => this._deleteRepLog($link)
-            }).catch((arg) => {
-                // canceling is cool!
             });
         }
 
@@ -242,4 +240,4 @@
 `;
 
     window.RepLogApp = RepLogApp;
-})(window, jQuery, Routing, swal);
+})(window, jQuery, Routing, Swal);
