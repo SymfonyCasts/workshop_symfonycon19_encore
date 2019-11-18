@@ -259,7 +259,67 @@
             "id": "css-use-font-awesome",
             "name": "CSS: Use Font Awesome",
             "description": null
+        },
+        {
+            "id": "sass-try-to-use-scss",
+            "name": "Sass: Try to use .scss",
+            "description": null
+        },
+        {
+            "id": "enable-sass",
+            "name": "Enable Sass",
+            "description": null
+        },
+        {
+            "id": "sass-install-sass-deps",
+            "name": "Sass: Install sass deps",
+            "description": null
+        },
+        {
+            "id": "sass-include-bootstrap-sass",
+            "name": "Sass: Include bootstrap Sass",
+            "description": null
+        },
+        {
+            "id": "sass-shorthand-bootstrap-import",
+            "name": "Sass: shorthand bootstrap import",
+            "description": null
+        },
+        {
+            "id": "prod-do-production-build",
+            "name": "Prod: do production build",
+            "description": null
+        },
+        {
+            "id": "import-using-import-export",
+            "name": "Import: Using import\/export",
+            "description": null
+        },
+        {
+            "id": "import-change-all-to-import-export",
+            "name": "Import: change all to import\/export",
+            "description": null
+        },
+        {
+            "id": "postcss-enable-it",
+            "name": "PostCSS: Enable it",
+            "description": null
+        },
+        {
+            "id": "postcss-install-it",
+            "name": "PostCSS: Install it",
+            "description": null
+        },
+        {
+            "id": "postcss-add-config",
+            "name": "PostCSS: Add config",
+            "description": null
+        },
+        {
+            "id": "postcss-install-autoprefixer",
+            "name": "PostCSS: Install autoprefixer",
+            "description": null
         }
     ],
-    "sha": "3dfa6ce28c8d7d1bf265c89beb0a8fa065cbe077"
+    "sha": "4c9eda9811b2c041103290a6baebe7161c61ffa9"
 }

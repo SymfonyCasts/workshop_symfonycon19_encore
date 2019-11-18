@@ -1,0 +1,12 @@
+diff --git a/assets/css/app.scss b/assets/css/app.scss
+index 6934e25..267427d 100644
+--- a/assets/css/app.scss
++++ b/assets/css/app.scss
+@@ -1,6 +1,6 @@
+ @import 'variables';
+ @import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+-@import '~bootstrap/scss/bootstrap';
++@import '~bootstrap';
+ @import '~@fortawesome/fontawesome-free/css/all.css';
+ 
+ body {
