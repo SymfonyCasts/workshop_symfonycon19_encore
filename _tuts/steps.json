@@ -319,7 +319,62 @@
             "id": "postcss-install-autoprefixer",
             "name": "PostCSS: Install autoprefixer",
             "description": null
+        },
+        {
+            "id": "postcss-try-it",
+            "name": "PostCSS: Try it",
+            "description": null
+        },
+        {
+            "id": "browserslist-add-setting",
+            "name": "browserslist: add setting",
+            "description": null
+        },
+        {
+            "id": "runtime-try-to-use-tooltip",
+            "name": "Runtime: Try to use tooltip",
+            "description": null
+        },
+        {
+            "id": "runtime-enable-single-chunk",
+            "name": "Runtime: Enable single chunk",
+            "description": null
+        },
+        {
+            "id": "runtime-import-bootstrap-anyways",
+            "name": "Runtime: import bootstrap anyways",
+            "description": null
+        },
+        {
+            "id": "fosjsroutingbundle-use-externals",
+            "name": "FOSJsRoutingBundle: use externals",
+            "description": null
+        },
+        {
+            "id": "fosjsroutingbundle-using-fake-module",
+            "name": "FOSJsRoutingBundle: using fake module",
+            "description": null
+        },
+        {
+            "id": "code-splitting-refactor-to-module",
+            "name": "Code Splitting: Refactor to module",
+            "description": null
+        },
+        {
+            "id": "code-splitting-use-import",
+            "name": "Code Splitting: use import() ",
+            "description": null
+        },
+        {
+            "id": "code-splitting-add-the-default",
+            "name": "Code Splitting: Add the .default()",
+            "description": null
+        },
+        {
+            "id": "fetch-set-up-getreplogs",
+            "name": "Fetch: Set up getRepLogs()",
+            "description": null
         }
     ],
-    "sha": "4c9eda9811b2c041103290a6baebe7161c61ffa9"
+    "sha": "ea20419844f45eb1c61685a0ddd8957551342e5e"
 }

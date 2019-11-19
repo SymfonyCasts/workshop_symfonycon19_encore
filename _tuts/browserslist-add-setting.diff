@@ -1,0 +1,14 @@
+diff --git a/package.json b/package.json
+index edd6f5e..b06cb1b 100644
+--- a/package.json
++++ b/package.json
+@@ -21,5 +21,8 @@
+         "dev": "encore dev",
+         "watch": "encore dev --watch",
+         "build": "encore production --progress"
+-    }
++    },
++    "browserslist": [
++        "> 5%"
++    ]
+ }

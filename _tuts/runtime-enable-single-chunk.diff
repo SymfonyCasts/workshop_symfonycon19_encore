@@ -1,0 +1,13 @@
+diff --git a/webpack.config.js b/webpack.config.js
+index 2544a03..8a5d232 100644
+--- a/webpack.config.js
++++ b/webpack.config.js
+@@ -34,7 +34,7 @@ Encore
+ 
+     // will require an extra script tag for runtime.js
+     // but, you probably want this, unless you're building a single-page app
+-    .disableSingleRuntimeChunk()
++    .enableSingleRuntimeChunk()
+ 
+     .copyFiles([
+         { from: './assets/static' }

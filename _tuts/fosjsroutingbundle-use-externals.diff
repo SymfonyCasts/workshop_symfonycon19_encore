@@ -1,0 +1,27 @@
+diff --git a/assets/js/Components/RepLogApp.js b/assets/js/Components/RepLogApp.js
+index 21600f0..8ee3cf5 100644
+--- a/assets/js/Components/RepLogApp.js
++++ b/assets/js/Components/RepLogApp.js
+@@ -2,6 +2,7 @@
+ 
+ import Helper from './RepLogAppHelper';
+ import $ from 'jquery';
++import Routing from 'routing';
+ 
+     let HelperInstances = new WeakMap();
+ 
+diff --git a/webpack.config.js b/webpack.config.js
+index 8a5d232..89b403b 100644
+--- a/webpack.config.js
++++ b/webpack.config.js
+@@ -76,6 +76,10 @@ Encore
+     // uncomment if you use API Platform Admin (composer req api-admin)
+     //.enableReactPreset()
+     //.addEntry('admin', './assets/js/admin.js')
++
++    .addExternals({
++        routing: 'Routing'
++    })
+ ;
+ 
+ module.exports = Encore.getWebpackConfig();

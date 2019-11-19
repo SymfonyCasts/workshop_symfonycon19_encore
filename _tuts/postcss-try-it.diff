@@ -1,0 +1,12 @@
+diff --git a/assets/css/app.scss b/assets/css/app.scss
+index 267427d..b1f3dc4 100644
+--- a/assets/css/app.scss
++++ b/assets/css/app.scss
+@@ -85,3 +85,7 @@ footer.footer {
+ .cat-count {
+     font-size: .9em;
+ }
++
++.no-user-select {
++    user-select: none;
++}
