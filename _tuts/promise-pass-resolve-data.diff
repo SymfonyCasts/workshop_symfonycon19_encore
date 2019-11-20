@@ -12,7 +12,7 @@ index de789c8..67bdef7 100644
          });
      }
 diff --git a/play.js b/play.js
-index 3e79137..e3ca91d 100644
+index 3e79137..0f1bdd3 100644
 --- a/play.js
 +++ b/play.js
 @@ -3,7 +3,8 @@ const Conference = require('./conference');
@@ -20,9 +20,8 @@ index 3e79137..e3ca91d 100644
  
  sfCon.printNameLater()
 -    .then(() => {
--        console.log('callback!');
 +    .then((data) => {
-+        console.log('callback');
+         console.log('callback!');
 +        console.log(data);
      });
  console.log('Done!');
