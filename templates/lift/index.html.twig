@@ -55,5 +55,5 @@
     {{ parent() }}
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9.3.11/dist/sweetalert2.min.js" integrity="sha256-UYVKbX4Zw6pLZrVS8phqZMOHSzLb/RZ1S5uQpNuAnQQ=" crossorigin="anonymous"></script>
-    <script src="{{ asset('build/rep_log.js') }}"></script>
+    {{ encore_entry_script_tags('rep_log') }}
 {% endblock %}
