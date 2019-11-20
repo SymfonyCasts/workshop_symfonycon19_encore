@@ -3,6 +3,7 @@
 import Helper from './RepLogAppHelper';
 import $ from 'jquery';
 import Routing from './Routing';
+import { getRepLogs } from '../api/rep_log';
 
     let HelperInstances = new WeakMap();
 
@@ -42,9 +43,7 @@ import Routing from './Routing';
         }
 
         loadRepLogs() {
-            $.ajax({
-                url: Routing.generate('rep_log_list'),
-            }).then(data => {
+            getRepLogs().then(data => {
                 for (let repLog of data.items) {
                     this._addRow(repLog);
                 }
