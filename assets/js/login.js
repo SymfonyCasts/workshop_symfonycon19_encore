@@ -20,7 +20,7 @@ import 'bootstrap';
 
             if ($emailInput.val().length >= 30) {
                 import('./Components/show_long_email_error').then(showLoginEmailError => {
-                    showLoginEmailError($emailInput);
+                    showLoginEmailError.default($emailInput);
                 });
             }
         });
