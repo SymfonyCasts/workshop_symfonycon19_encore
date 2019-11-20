@@ -2,6 +2,7 @@
 
 import $ from 'jquery';
 import '../css/login.css';
+import 'bootstrap';
 
     $(document).ready(function() {
         $('.js-show-login').tooltip();
