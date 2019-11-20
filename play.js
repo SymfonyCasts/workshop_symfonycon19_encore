@@ -1,3 +1,3 @@
-const conference = 'SymfonyCon 2019!';
+const conference = require('./conference');
 
 console.log(conference);
