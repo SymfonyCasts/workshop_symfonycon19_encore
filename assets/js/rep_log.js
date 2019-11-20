@@ -1,4 +1,4 @@
-const RepLogApp = require('./Components/RepLogApp');
+import RepLogApp from './Components/RepLogApp';
 const $ = require('jquery');
 
 $(document).ready(function() {
