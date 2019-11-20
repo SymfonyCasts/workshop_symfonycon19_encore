@@ -1,6 +1,6 @@
 'use strict';
+const $ = require('jquery');
 
-(function(window, $) {
     $(document).ready(function() {
         $('.js-recommended-login').on('click', '.js-show-login', function(e) {
             e.preventDefault();
@@ -19,4 +19,3 @@
             }
         });
     });
-})(window, jQuery);
