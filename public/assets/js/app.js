@@ -1,7 +1,8 @@
 'use strict';
 
-(function(window, $) {
+const $ = require('jquery');
+
     $(document).ready(function() {
         $('[data-toggle="tooltip"]').tooltip();
     });
-})(window, jQuery);
+
